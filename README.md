@@ -1,6 +1,6 @@
 # javascriptquiz
 
-a 5 question quiz about the fundamentals of javascript.
+a 4 question quiz about the fundamentals of javascript.
 
 Week 3 Homework: Code Quiz
 Your Task

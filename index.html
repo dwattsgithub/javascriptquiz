@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <ul id="high-scores"></ul>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header>
+            <!-- Link to view high scores -->
+            <a href="#" id="view-scores">View High Scores</a>
+        </header>
+
+        <!-- A box to contain the questions, the time, and the result -->
+        <div class="card">
+            <!-- Card header to display Timer -->
+            <div class="card-header">
+                <h2 id="timerDisp">Time: 60</h2>
+            </div>
+            <div class="card-body">
+                <!-- Space for displaying the question and answer choices dynamically -->
+                <p id="init-card" class="textProps">
+                    <button id="start-button">Start Quiz</button>
+                </p>
+            </div>
+            <!-- Card footer to display the result of each question as correct or wrong -->
+            <div class="card-footer">
+                <p id="result"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
